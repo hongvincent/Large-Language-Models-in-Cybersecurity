@@ -73,7 +73,8 @@ class BaseAgent(ABC):
 ### 실습 4.1: 보안 상담 Agent
 
 ```python
-# examples/agents/security_advisor_agent.py
+# 구현 예시: Security Advisor Agent (참고용 코드)
+# 실행하려면 이 코드를 examples/agents/security_advisor_agent.py로 저장하세요
 
 class SecurityAdvisorAgent(BaseAgent):
     """보안 상담 Agent"""
@@ -139,7 +140,8 @@ for question in conversation:
 ### 실습 4.2: Interactive Red Team Agent
 
 ```python
-# examples/agents/red_team_agent.py
+# 구현 예시: Red Team Agent (참고용 코드)
+# 실행하려면 이 코드를 examples/agents/red_team_agent.py로 저장하세요
 
 class RedTeamAgent(BaseAgent):
     """대화형 Red Team Agent"""
@@ -229,7 +231,8 @@ for q in questions:
 ### 실습 2.1: Multi-Agent Coordinator
 
 ```python
-# examples/agents/multi_agent_coordinator.py
+# 구현 예시: Multi-Agent Coordinator (참고용 코드)
+# 실행하려면 이 코드를 examples/agents/multi_agent_coordinator.py로 저장하세요
 
 class AgentCoordinator:
     """Multiple Agent들을 조정하는 Coordinator"""
@@ -418,7 +421,8 @@ for task in tasks:
 ### 실습 2.2: Self-Guided Agent with Critique
 
 ```python
-# examples/agents/self_guided_agent.py
+# 구현 예시: Self-Guided Agent (참고용 코드)
+# 실행하려면 이 코드를 examples/agents/self_guided_agent.py로 저장하세요
 
 class SelfGuidedSecurityAgent(BaseAgent):
     """자기 비판 및 개선 기능을 가진 Agent"""
@@ -522,7 +526,8 @@ print(f"Final Response:\n{result}")
 ### 실습: Tool-Augmented Security Agent
 
 ```python
-# examples/agents/tool_augmented_agent.py
+# 구현 예시: Tool-Augmented Security Agent (참고용 코드)
+# 실행하려면 이 코드를 examples/agents/tool_augmented_agent.py로 저장하세요
 
 import subprocess
 import json
@@ -764,7 +769,8 @@ for task in tasks:
 ### 실습: Self-Operating Penetration Testing Agent
 
 ```python
-# examples/agents/autonomous_pentest_agent.py
+# 구현 예시: Autonomous Penetration Testing Agent (참고용 코드)
+# 실행하려면 이 코드를 examples/agents/autonomous_pentest_agent.py로 저장하세요
 
 class AutonomousPentestAgent(BaseAgent):
     """자율적으로 침투 테스트를 수행하는 Agent"""
@@ -927,7 +933,8 @@ print(report)
 ### 실습: Multi-Agent Defense System
 
 ```python
-# examples/agents/collaborative_defense.py
+# 구현 예시: Collaborative Defense System (참고용 코드)
+# 실행하려면 이 코드를 examples/agents/collaborative_defense.py로 저장하세요
 
 class DefenseCoordinator:
     """방어 Agent들을 조정하는 시스템"""
@@ -1176,7 +1183,8 @@ for i, event in enumerate(security_events, 1):
 ## 📊 Agent 성능 모니터링
 
 ```python
-# examples/agents/agent_monitoring.py
+# 구현 예시: Agent Monitoring System (참고용 코드)
+# 실행하려면 이 코드를 examples/agents/agent_monitoring.py로 저장하세요
 
 class AgentMonitor:
     """Agent 성능 및 행동 모니터링"""

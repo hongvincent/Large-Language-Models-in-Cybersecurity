@@ -487,7 +487,7 @@ for injection in injection_prompts:
 
 **실습 10.2: 프롬프트 인젝션 방어**
 ```python
-# examples/ch10_injection_defense.py
+# examples/ch10_prompt_injection.py (방어 기법 포함)
 
 def secure_assistant(user_input):
     """보안이 강화된 어시스턴트"""
